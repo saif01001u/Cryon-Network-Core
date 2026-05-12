@@ -24,4 +24,4 @@ channel = "stable-25_05"
 
 [[ports]]
 localPort = 20504
-externalPort = 80
+externalPort = 3000
