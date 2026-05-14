@@ -1,219 +1,40 @@
-Cryon Network Core
-
-Sovereign Identity Infrastructure for the Decentralized Web
-
-Verified on-chain. Owned by you. Built on Solana.
-
-https://img.shields.io/badge/Solana-Devnet-9945FF?logo=solana
-https://img.shields.io/badge/License-MIT-blue.svg
-https://img.shields.io/badge/Status-Active%20Devnet-green
-https://img.shields.io/badge/Audit-Public-yellow
-
----
-
-📌 Executive Summary
-
-Cryon Network is a decentralized, non-custodial identity protocol that anchors cryptographic identity proofs directly to Solana wallets. It eliminates centralized identity providers, gives users full sovereignty, and enables instant on-chain verification — settling in under 400ms.
-
-Metric Value
-Network Solana Devnet (Mainnet ready)
-Transaction Finality < 400ms
-Current TPS 102
-Program ID DbXQctgDjcERBX9PitvBUsY18gAvNLKnfHwiU4DfvDF5
-Wallet Support Phantom, Solflare
-
----
-
-🎯 Problem & Solution
-
-The Problem
-
-Issue Description
-🔴 Centralized control Google, Facebook, or government-owned identity
-🔴 Privacy risk Data breaches, surveillance, and monetization of user info
-🔴 Siloed identities Different credentials for every platform — no portability
-🔴 Custodial risk You don't own your identity — the platform does
-
-The Solution
-
-Feature Benefit
-🟢 Self-sovereign identity You control your data, not a corporation
-🟢 On-chain verification Cryptographic proofs, no trusted third party
-🟢 Portable across dApps One identity for the entire web3 ecosystem
-🟢 Non-custodial Private keys never leave your wallet
-
----
-
-🚀 Product Overview
-
-Core Features
-
-Feature Technical Detail Status
-Sovereign Identity On-chain PDA anchored to wallet pubkey ✅ Live
-Instant Verification Solana proof-of-history settlement ✅ Live
-Public Key Permissions No private key exposure ✅ Live
-Smart Contract Auditability Open-source, verifiable on Solscan ✅ Live
-
-Live Demo
-
-🔗 https://saif01001u.github.io/Cryon-Network-Core/
-
-Connect → Claim Identity → Verified on Solana
-
----
-
-📊 Market Opportunity
-
-Sector Market Size (2025) Growth Rate
-Decentralized Identity $2.5B+ 45% CAGR
-Web3 Wallets $1.8B+ 62% CAGR
-Solana Ecosystem $50B+ TVL peak —
-
-Target Users:
-
-· Web3 native users (10M+ monthly active wallets)
-· dApp developers needing identity infrastructure
-· DAOs requiring verified member credentials
-· Gaming & metaverse platforms
-
----
-
-🔧 Technical Architecture
-
-```
-┌─────────────────────────────────────────────────────┐
-│                   Cryon Network                      │
-├─────────────────────────────────────────────────────┤
-│                                                       │
-│   ┌──────────┐     ┌──────────┐     ┌──────────┐   │
-│   │ Phantom  │     │ Solflare │     │  Other   │   │
-│   │  Wallet  │     │  Wallet  │     │ Wallets  │   │
-│   └────┬─────┘     └────┬─────┘     └────┬─────┘   │
-│        │                │                │          │
-│        └────────────────┼────────────────┘          │
-│                         ▼                            │
-│              ┌─────────────────┐                     │
-│              │  Cryon Program  │                     │
-│              │  (Solana)       │                     │
-│              └────────┬────────┘                     │
-│                       │                               │
-│        ┌──────────────┼──────────────┐               │
-│        ▼              ▼              ▼               │
-│   ┌─────────┐   ┌─────────┐   ┌─────────┐           │
-│   │Profile  │   │Verify   │   │Endorse  │           │
-│   │Account  │   │Account  │   │Account  │           │
-│   └─────────┘   └─────────┘   └─────────┘           │
-│                                                       │
-└─────────────────────────────────────────────────────┘
-```
-
-Smart Contract Details
-
-Parameter Value
-Program ID DbXQctgDjcERBX9PitvBUsY18gAvNLKnfHwiU4DfvDF5
-Cluster Solana Devnet (Mainnet ready)
-Audit Status Publicly verifiable
-Transaction Fee ~0.000005 SOL
-
-View on Solscan →
-
----
-
-📈 Roadmap
-
-Phase Timeline Deliverables Status
-Phase 1 Q2 2026 Core identity protocol, Devnet launch ✅ Complete
-Phase 2 Q3 2026 Profile metadata, One Box dashboard 🔄 In Progress
-Phase 3 Q4 2026 Social verification (Twitter/GitHub) 📅 Planned
-Phase 4 Q1 2027 Endorsement system, Reputation scoring 📅 Planned
-Phase 5 Q2 2027 Mainnet Launch 📅 Planned
-Phase 6 Q3 2027 Developer SDK, dApp integrations 📅 Planned
-
----
-
-💰 Investment Opportunity
-
-Use of Funds (if raising $50K - $150K)
-
-Category Allocation Purpose
-Smart Contract Audit 30% Security audit for Mainnet launch
-Frontend Development 25% One Box dashboard + mobile responsive
-Marketing & Community 20% Twitter, Discord, Solana ecosystem outreach
-Legal & Compliance 15% Terms, privacy policy, regulatory readiness
-Operations 10% RPC costs, hosting, tooling
-
-Value Proposition for Investors
-
-Factor Advantage
-🔹 First-mover Few sovereign identity protocols on Solana
-🔹 Low competition Solana lacks a dominant DID standard
-🔹 Scalable Solana's 400ms finality enables mass adoption
-🔹 Composable Can be integrated into any Solana dApp
-🔹 Revenue potential Premium features, API access, verification fees
-
----
-
-🏆 Competitive Landscape
-
-Competitor Chain Custodial? Our Advantage
-Civic Solana Partial ❌ Higher fees, centralized verification
-BrightID Ethereum No ❌ Slow, expensive gas fees
-Polygon ID Polygon No ❌ Not Solana native
-Cryon Network Solana No ✅ Fast, cheap, Solana-native
-
----
-
-📊 Current Metrics (as of May 2026)
-
-Metric Value
-Live on Devnet ✅ Yes
-Program ID Deployed ✅ Yes
-Open Source ✅ Yes
-GitHub Stars Growing
-Community Size Early stage
-
----
-
-👥 Team
-
-Role Description
-Founder & Lead Developer Full-stack blockchain developer, Solana ecosystem contributor
-
----
-
-🔗 Links
-
-Platform Link
-Live Demo saif01001u.github.io/Cryon-Network-Core
-GitHub github.com/saif01001u/Cryon-Network-Core
-Smart Contract Solscan (Devnet)
-
----
-
-📞 Contact for Investors
-
-For investment inquiries, partnerships, or grant applications:
-
-· GitHub Issues: Open an issue
-· Project Demo: Live URL
-
----
-
-📝 License
-
-MIT License — Open source for transparency, proprietary features planned for Mainnet.
-
----
-
-⚠️ Disclaimer
-
-This project is currently on Solana Devnet (test environment). The smart contract is publicly auditable. Mainnet launch will follow a full security audit.
-
----
-
-```
-┌────────────────────────────────────────────┐
-│  💙 Built on Solana                        │
-│  🔐 Sovereign Identity for Everyone        │
-│  🌐 Decentralized Web Infrastructure       │
-└────────────────────────────────────────────┘
+CRYON NETWORK CORE SOVEREIGN IDENTITY INFRASTRUCTURE FOR THE DECENTRALIZED WEB INTRODUCTION Cryon Network is a high-performance, decentralized identity protocol built on the Solana blockchain. It provides a secure layer for anchoring cryptographic identity proofs directly to user wallets, ensuring complete data sovereignty. By utilizing Solana’s Sealevel runtime, the protocol achieves near-instant verification and settlement, eliminating the need for centralized intermediaries.
+CORE MISSION To empower users with full control over their digital identity while providing developers with a scalable, low-latency infrastructure for cross-platform identity verification.
+TECHNICAL SPECIFICATIONS BLOCKCHAIN NETWORK * Primary Chain: Solana
+Environment: Devnet (Mainnet-Ready Architecture)
+Finality Speed: Under 400ms
+Throughput: 100+ Transactions Per Second (TPS)
+PROTOCOL IDENTITY * Program ID: DbXQctgDjcERBX9PitvBUsY18gAvNLKnfHwiU4DfvDF5
+Identity Anchor: SHA-256 Cryptographic Hashing
+WALLET COMPATIBILITY * Phantom Wallet
+Solflare Wallet
+Solana CLI Wallet
+KEY ARCHITECTURAL PILLARS 1. SELF-SOVEREIGN IDENTITY (SSI) Users maintain exclusive ownership of their private keys and identity metadata. The protocol facilitates verification without ever storing sensitive personal information.
+2. REAL-TIME ON-CHAIN SETTLEMENT Optimized for high-frequency applications, the network ensures that identity proofs are verified and settled on-chain in milliseconds.
+3. MULTI-PLATFORM API VERIFICATION Integrating directly with official APIs (GitHub, X, Discord), the protocol ensures 100% data integrity, preventing bot activity and sybil attacks through original API verification.
+TECHNICAL STACK BACKEND AND SMART CONTRACTS * Language: Rust
+Framework: Anchor Framework
+FRONTEND AND INTEGRATION * Language: TypeScript
+Library: Next.js / React
+Package Manager: pnpm
+DEPLOYMENT AND INSTALLATION GUIDE PREREQUISITES * Rust and Cargo (Latest Stable Version)
+Solana CLI Tools
+Anchor Framework v0.29.0 or higher
+STEP-BY-STEP SETUP STEP 1: REPOSITORY CLONING git clone https://github.com/saif01001u/Cryon-Network-Core.git
+STEP 2: DEPENDENCY INSTALLATION pnpm install
+STEP 3: SMART CONTRACT COMPILATION anchor build
+STEP 4: LOCAL TESTING anchor test
+STRATEGIC ROADMAP PHASE 1: FOUNDATION (COMPLETED) * Protocol Architecture Design
+Core Identity Anchor Deployment on Solana Devnet
+PHASE 2: ECOSYSTEM GROWTH (CURRENT) * Points Farming Dashboard Integration
+100% Authentic API Verification System (GitHub, X, Discord)
+Community Engagement Rewards
+PHASE 3: DEVELOPER ADOPTION * Public SDK Release for dApp Integration
+Technical Documentation Expansion
+PHASE 4: NETWORK EXPANSION * Mainnet Beta Launch
+Multi-Chain Identity Bridging
+GOVERNANCE AND SECURITY SECURITY AUDIT STATUS The protocol is currently undergoing internal security reviews. All identity proofs are cryptographically hashed before being committed to the blockchain to ensure maximum privacy.
+LICENSE This project is licensed under the MIT License - providing transparency and encouraging open-source collaboration.
+CONTACT AND SUPPORT Author: Saif
+GitHub: @saif01001u
+Organization: Cryon Network Core Team
